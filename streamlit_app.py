@@ -40,9 +40,6 @@ try:
 
 except URLError as e:
   streamlit.error()
-  
-# normalise json
-# output as table
 
 streamlit.header("View Our Fruit List - Add Your Favorites!:")
 def get_fruit_load_list():
