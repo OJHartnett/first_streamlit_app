@@ -46,8 +46,6 @@ streamlit.write('The user entered ', fruit_choice)
 # normalise json
 # output as table
 
-streamlit.stop()
-
 streamlit.header("The fruit load list contains:")
 def get_fruit_load_list():
   with my_cnx.cursor() as my_cur:
